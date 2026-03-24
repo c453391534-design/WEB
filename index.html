@@ -1,55 +1,245 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Odds Simulator Support</title>
-  <meta name="description" content="Support page for Odds Simulator." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="page">
-    <header class="topbar">
-      <div class="brand">Odds Simulator</div>
-      <nav class="nav">
-        <a href="index.html" aria-current="page">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
-      </nav>
-    </header>
+<!DOCTYPE html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Architectural Ledger | Support</title>
+    <meta
+      name="description"
+      content="Architectural Ledger support hub for project services, system deployment, and contact."
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#ffffff",
+              "secondary-fixed": "#c8c6c6",
+              "inverse-on-surface": "#f1f1f1",
+              "on-tertiary-fixed": "#ffffff",
+              "error-container": "#ffdad6",
+              "on-error": "#ffffff",
+              "surface-tint": "#5e5e5e",
+              "surface-bright": "#f9f9f9",
+              "on-error-container": "#410002",
+              "inverse-primary": "#c6c6c6",
+              "surface-container-highest": "#e2e2e2",
+              "on-primary-fixed": "#ffffff",
+              "inverse-surface": "#2f3131",
+              "surface-variant": "#e2e2e2",
+              "tertiary-container": "#757474",
+              "secondary": "#5f5e5e",
+              "tertiary-fixed": "#5e5e5e",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#464747",
+              surface: "#f9f9f9",
+              "primary-fixed": "#5e5e5e",
+              "surface-container": "#eeeeee",
+              "on-surface": "#1a1c1c",
+              primary: "#000000",
+              "surface-container-high": "#e8e8e8",
+              tertiary: "#3b3b3b",
+              "surface-dim": "#dadada",
+              "on-tertiary": "#e4e2e2",
+              "on-primary": "#e2e2e2",
+              "primary-fixed-dim": "#474747",
+              "on-secondary-container": "#1b1c1c",
+              "secondary-container": "#d6d4d3",
+              background: "#f9f9f9",
+              "primary-container": "#3b3b3b",
+              "surface-container-low": "#f3f3f3",
+              "on-secondary-fixed": "#1b1c1c",
+              "on-tertiary-fixed-variant": "#e4e2e2",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "secondary-fixed-dim": "#acabaa",
+              "outline-variant": "#c6c6c6",
+              "on-surface-variant": "#474747",
+              "on-primary-container": "#ffffff",
+              "on-secondary-fixed-variant": "#3b3b3b",
+              "on-background": "#1a1c1c",
+              "on-secondary": "#ffffff",
+              outline: "#777777",
+              error: "#ba1a1a",
+            },
+            fontFamily: {
+              headline: ["Space Grotesk"],
+              body: ["Inter"],
+              label: ["Space Grotesk"],
+            },
+            borderRadius: {
+              DEFAULT: "0px",
+              lg: "0px",
+              xl: "0px",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body class="bg-surface text-on-surface">
+    <nav class="bg-[#f9f9f9] flex justify-between items-center w-full px-6 py-4 max-w-full fixed top-0 z-50 border-b border-outline-variant/20">
+      <div class="text-2xl font-black tracking-tighter text-black font-['Space_Grotesk']">ARCHITECTURAL LEDGER</div>
+      <div class="hidden md:flex gap-8 items-center">
+        <a class="font-['Space_Grotesk'] uppercase tracking-tight text-sm font-bold text-black border-b-2 border-black pb-1" href="index.html">PROJECTS</a>
+        <a class="font-['Space_Grotesk'] uppercase tracking-tight text-sm font-bold text-gray-500 hover:text-black transition-colors duration-100" href="privacy.html">PRIVACY</a>
+        <a class="font-['Space_Grotesk'] uppercase tracking-tight text-sm font-bold text-gray-500 hover:text-black transition-colors duration-100" href="#contact">CONTACT</a>
+      </div>
+      <a href="mailto:453391534@qq.com" class="font-['Space_Grotesk'] uppercase tracking-tight text-sm font-bold px-4 py-2 bg-black text-white active:scale-95 transition-transform">LOGIN</a>
+    </nav>
 
-    <main class="card">
-      <p class="eyebrow">iOS App Support</p>
-      <h1>Odds Simulator Support</h1>
-      <p class="lead">
-        If you have any questions, bug reports, feature requests, or other feedback
-        about Odds Simulator, please contact us using the email below.
-      </p>
-
-      <section class="section">
-        <h2>Contact</h2>
-        <p>
-          Email:
-          <a href="mailto:453391534@qq.com">453391534@qq.com</a>
-        </p>
+    <main class="pt-24 pb-12 px-6 max-w-[1440px] mx-auto">
+      <section class="grid grid-cols-1 md:grid-cols-12 gap-0 mb-24 border-b border-outline-variant/20">
+        <div class="md:col-span-8 py-12">
+          <h1 class="font-headline text-[12vw] leading-[0.85] font-black tracking-tighter uppercase mb-8">SYSTEM<br />OVERRIDE</h1>
+          <p class="font-body text-xl max-w-xl text-on-surface-variant leading-relaxed">
+            A technical framework for architectural documentation and asset management. Built for the modern structuralist.
+          </p>
+        </div>
+        <div class="md:col-span-4 bg-surface-container-low p-8 flex flex-col justify-between border-l border-outline-variant/20">
+          <div class="space-y-4">
+            <div class="text-[10px] font-label font-bold tracking-[0.2em] text-secondary">METADATA_01</div>
+            <div class="text-4xl font-headline font-bold leading-none">v.4.0.2</div>
+            <div class="text-xs font-body opacity-60">STABLE_RELEASE // 2026</div>
+          </div>
+          <div class="pt-12">
+            <div class="w-24 h-24 bg-primary flex items-center justify-center p-2">
+              <div class="grid grid-cols-4 gap-1 w-full h-full">
+                <div class="bg-white col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div>
+                <div class="bg-white col-span-1 row-span-1"></div><div class="bg-black col-span-1 row-span-1"></div><div class="bg-black col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div>
+                <div class="bg-white col-span-1 row-span-1"></div><div class="bg-black col-span-1 row-span-1"></div><div class="bg-black col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div>
+                <div class="bg-white col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div><div class="bg-white col-span-1 row-span-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Response Time</h2>
-        <p>We usually respond within 3–5 business days.</p>
+      <section class="mb-24">
+        <div class="flex justify-between items-end mb-12 border-b-2 border-primary pb-4">
+          <h2 class="font-headline text-4xl font-black tracking-tighter uppercase">LINE_ITEMS.exe</h2>
+          <span class="font-label text-xs font-bold tracking-widest text-secondary">TOTAL_COUNT: 04</span>
+        </div>
+        <div class="space-y-1">
+          <div class="group grid grid-cols-1 md:grid-cols-12 items-center py-6 px-4 bg-surface hover:bg-surface-container-low transition-colors duration-150 border-b border-outline-variant/10">
+            <div class="md:col-span-1 font-label text-xs text-secondary font-bold">001</div>
+            <div class="md:col-span-5"><h3 class="font-headline text-2xl font-bold uppercase">Structural Blueprinting</h3></div>
+            <div class="md:col-span-4 font-body text-sm text-on-surface-variant italic">CAD modeling &amp; system integration</div>
+            <div class="md:col-span-2 text-right font-headline font-bold">EST. $4,200.00</div>
+          </div>
+          <div class="group grid grid-cols-1 md:grid-cols-12 items-center py-6 px-4 bg-surface hover:bg-surface-container-low transition-colors duration-150 border-b border-outline-variant/10">
+            <div class="md:col-span-1 font-label text-xs text-secondary font-bold">002</div>
+            <div class="md:col-span-5"><h3 class="font-headline text-2xl font-bold uppercase">Asset Tokenization</h3></div>
+            <div class="md:col-span-4 font-body text-sm text-on-surface-variant italic">On-ledger verification protocols</div>
+            <div class="md:col-span-2 text-right font-headline font-bold">EST. $1,850.00</div>
+          </div>
+          <div class="group grid grid-cols-1 md:grid-cols-12 items-center py-6 px-4 bg-surface hover:bg-surface-container-low transition-colors duration-150 border-b border-outline-variant/10">
+            <div class="md:col-span-1 font-label text-xs text-secondary font-bold">003</div>
+            <div class="md:col-span-5"><h3 class="font-headline text-2xl font-bold uppercase">Material Ledger</h3></div>
+            <div class="md:col-span-4 font-body text-sm text-on-surface-variant italic">Resource tracking &amp; optimization</div>
+            <div class="md:col-span-2 text-right font-headline font-bold">EST. $3,100.00</div>
+          </div>
+          <div class="group grid grid-cols-1 md:grid-cols-12 items-center py-6 px-4 bg-surface-container-low border-b border-outline-variant/10">
+            <div class="md:col-span-1 font-label text-xs text-secondary font-bold">004</div>
+            <div class="md:col-span-5"><h3 class="font-headline text-2xl font-bold uppercase">Final Certification</h3></div>
+            <div class="md:col-span-4 font-body text-sm text-on-surface-variant italic">Compliance audit &amp; export</div>
+            <div class="md:col-span-2 text-right font-headline font-bold">EST. $900.00</div>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Privacy</h2>
-        <p>
-          You can read our privacy policy here:
-          <a href="privacy.html">Privacy Policy</a>
-        </p>
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
+        <div class="md:col-span-2 aspect-video bg-surface-container-high overflow-hidden relative">
+          <img alt="Architectural structure" class="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5LfnWzwf-MedgA7NSTMfB6VLOWxnEEeB0WxIkjWmpc4eFttLMLFOzzebphFyks6nG7vLnH0d9_q-naon977U6cm84WlDApV7Kf_FMX9R9_vaCvthlLICLMYyylX39d1R8g0HwR2Ur9RGKEODr-K_HdEXg4WJim1CJIgu2Fp09nuclia_3Of3IQkY0wGP1OKWz11iEXBGp-5Djl8Wsu04ZntUFzkOMFzy7EZ2JQw8fTiuoGurBY4QzhXgbbhxFpEN2D0r3H3r2xwdI" />
+          <div class="absolute bottom-6 left-6 bg-white p-4">
+            <div class="text-[10px] font-label font-black mb-1 uppercase tracking-widest">Fig. A</div>
+            <div class="text-sm font-body font-bold">Primary Monolith Structure v1.2</div>
+          </div>
+        </div>
+        <div class="bg-black text-white p-8 flex flex-col justify-between">
+          <div>
+            <span class="material-symbols-outlined text-4xl mb-6">view_in_ar</span>
+            <h4 class="font-headline text-3xl font-bold leading-tight uppercase mb-4">Spatial<br />Protocol</h4>
+            <p class="font-body text-sm text-on-primary opacity-70 leading-relaxed">
+              Deploying spatial coordinates across distributed networks for real-time asset validation.
+            </p>
+          </div>
+          <button class="w-full py-4 border border-white font-label text-xs font-bold uppercase hover:bg-white hover:text-black transition-colors">
+            Initialize Protocol
+          </button>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24" id="contact">
+        <div class="p-8 border-2 border-primary">
+          <h4 class="font-headline text-xl font-black uppercase mb-8">Service_Summary</h4>
+          <div class="space-y-4">
+            <div class="flex justify-between font-body text-sm"><span class="uppercase font-bold">Subtotal</span><span>$10,050.00</span></div>
+            <div class="flex justify-between font-body text-sm"><span class="uppercase font-bold">Service Tax (15%)</span><span>$1,507.50</span></div>
+            <div class="flex justify-between font-body text-sm"><span class="uppercase font-bold">System Maintenance</span><span>$240.00</span></div>
+            <div class="pt-4 border-t border-outline-variant flex justify-between items-end">
+              <span class="font-headline text-3xl font-black uppercase">Grand Total</span>
+              <span class="font-headline text-3xl font-black">$11,797.50</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center">
+          <h4 class="font-headline text-5xl font-black uppercase mb-6 leading-none tracking-tighter">Ready to<br />Build?</h4>
+          <p class="font-body text-lg text-on-surface-variant mb-8 max-w-sm">
+            Connect with our terminal for a custom quote or immediate system deployment.
+          </p>
+          <div class="flex gap-4 flex-wrap">
+            <a href="mailto:453391534@qq.com" class="bg-primary text-on-primary px-8 py-4 font-label font-bold uppercase active:scale-95 transition-transform">
+              Request Access
+            </a>
+            <a href="privacy.html" class="border border-primary px-8 py-4 font-label font-bold uppercase hover:bg-surface-container-low transition-colors">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <p>© 2026 Odds Simulator. All rights reserved.</p>
+    <footer class="w-full bg-black text-white flex flex-col md:flex-row justify-between items-center px-6 py-12 mt-auto">
+      <div class="text-white font-bold font-['Space_Grotesk'] uppercase mb-8 md:mb-0">THE ARCHITECTURAL LEDGER</div>
+      <div class="flex gap-8 mb-8 md:mb-0">
+        <a class="font-['Space_Grotesk'] uppercase text-[10px] tracking-widest opacity-70 hover:opacity-100 transition-opacity duration-200" href="privacy.html">PRIVACY</a>
+        <a class="font-['Space_Grotesk'] uppercase text-[10px] tracking-widest opacity-70 hover:opacity-100 transition-opacity duration-200" href="#">TERMS</a>
+        <a class="font-['Space_Grotesk'] uppercase text-[10px] tracking-widest opacity-70 hover:opacity-100 transition-opacity duration-200" href="mailto:453391534@qq.com">CONTACT</a>
+      </div>
+      <div class="font-['Space_Grotesk'] uppercase text-[10px] tracking-widest text-right">© 2026 THE ARCHITECTURAL LEDGER. ALL RIGHTS RESERVED.</div>
     </footer>
-  </div>
-</body>
+
+    <aside class="hidden md:flex fixed left-0 top-0 h-full w-16 bg-[#f3f3f3] flex-col z-40 border-r border-outline-variant/10">
+      <div class="h-16 flex items-center justify-center bg-black text-white">
+        <span class="material-symbols-outlined">terminal</span>
+      </div>
+      <div class="flex flex-col items-center py-8 gap-10">
+        <span class="material-symbols-outlined text-gray-400 hover:text-black cursor-pointer" title="DASHBOARD">grid_view</span>
+        <span class="material-symbols-outlined text-gray-400 hover:text-black cursor-pointer" title="PORTFOLIO">folder_open</span>
+        <span class="material-symbols-outlined text-gray-400 hover:text-black cursor-pointer" title="ARCHIVE">inventory_2</span>
+        <span class="material-symbols-outlined text-gray-400 hover:text-black cursor-pointer" title="METRICS">analytics</span>
+        <span class="material-symbols-outlined text-gray-400 hover:text-black cursor-pointer" title="SETTINGS">settings</span>
+      </div>
+    </aside>
+  </body>
 </html>
