@@ -3,53 +3,135 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Odds Simulator Support</title>
-  <meta name="description" content="Support page for Odds Simulator." />
-  <link rel="stylesheet" href="styles.css" />
+  <title>SOCIAL-LAB</title>
+  <meta
+    name="description"
+    content="SOCIAL-LAB project index with links to active product support pages."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="site.css" />
+  <script defer src="app.js"></script>
 </head>
-<body>
-  <div class="page">
-    <header class="topbar">
-      <div class="brand">Odds Simulator</div>
-      <nav class="nav">
-        <a href="index.html" aria-current="page">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
+<body class="theme-invoice" data-page="home">
+  <div class="site-shell invoice-shell">
+    <header class="site-header invoice-header">
+      <a class="brand brand-plain" href="index.html" data-i18n-attr="aria-label:brand.aria">
+        <span class="brand-copy">
+          <strong data-i18n="brand.name">SOCIAL-LAB</strong>
+          <span data-i18n="brand.subhead">Project Index</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation" data-i18n-attr="aria-label:nav.aria">
+        <a href="index.html" aria-current="page" data-i18n="nav.home">Home</a>
+        <a href="odds-simulator.html" data-i18n="nav.odds">Odds Simulator</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Privacy Policy</a>
       </nav>
+
+      <button type="button" class="header-cta" data-open-contact data-i18n="header.contact">Contact</button>
     </header>
 
-    <main class="card">
-      <p class="eyebrow">iOS App Support</p>
-      <h1>Odds Simulator Support</h1>
-      <p class="lead">
-        If you have any questions, bug reports, feature requests, or other feedback
-        about Odds Simulator, please contact us using the email below.
-      </p>
+    <main class="invoice-page">
+      <section class="invoice-hero">
+        <div class="invoice-topline">
+          <div class="invoice-meta">
+            <span data-i18n="home.clientLabel">[Studio Index]</span>
+          </div>
+          <div class="invoice-stamp" data-i18n="home.stamp">DIRECTORY</div>
+        </div>
 
-      <section class="section">
-        <h2>Contact</h2>
-        <p>
-          Email:
-          <a href="mailto:453391534@qq.com">453391534@qq.com</a>
-        </p>
+        <div class="invoice-title-row">
+          <h1 data-i18n-html="home.title">[SOCIAL-LAB]</h1>
+          <div class="invoice-code">
+            <span data-i18n="home.codeLabel">Archive</span>
+            <strong data-i18n="home.codeValue">VOL.01</strong>
+          </div>
+        </div>
+
+        <figure class="invoice-gif-accent" aria-hidden="true">
+          <img src="./assets/images/1.gif" alt="" loading="lazy" />
+        </figure>
       </section>
 
-      <section class="section">
-        <h2>Response Time</h2>
-        <p>We usually respond within 3–5 business days.</p>
+      <section class="invoice-ledger">
+        <div class="invoice-ledger-head">
+          <span data-i18n="home.tableItem">Project</span>
+          <span data-i18n="home.tableScope">Scope</span>
+          <span data-i18n="home.tableRoute">Route</span>
+        </div>
+
+        <article class="invoice-line-item">
+          <div>
+            <span class="invoice-line-code">001</span>
+            <h2>Odds Simulator</h2>
+          </div>
+          <p data-i18n="home.oddsScope">Support page, feedback intake, privacy access, and user guidance.</p>
+          <a class="invoice-line-link" href="odds-simulator.html" data-i18n="home.oddsLink">Open Odds Simulator</a>
+        </article>
+
+        <article class="invoice-line-item invoice-line-item-muted">
+          <div>
+            <span class="invoice-line-code">002</span>
+            <h2 data-i18n="home.privacyTitle">Privacy Policy</h2>
+          </div>
+          <p data-i18n="home.privacyScope">Legal and data-handling reference for the current product release.</p>
+          <a class="invoice-line-link" href="privacy.html" data-i18n="home.privacyLink">Open Privacy Policy</a>
+        </article>
       </section>
 
-      <section class="section">
-        <h2>Privacy</h2>
-        <p>
-          You can read our privacy policy here:
-          <a href="privacy.html">Privacy Policy</a>
-        </p>
+      <section class="invoice-footer-grid">
+        <div class="invoice-summary">
+          <h3 data-i18n="home.summaryTitle">Summary</h3>
+          <ul>
+            <li data-i18n="home.summary1">One public homepage for project navigation</li>
+            <li data-i18n="home.summary2">Dedicated Odds Simulator support page</li>
+            <li data-i18n="home.summary3">Shared contact modal on top navigation</li>
+          </ul>
+        </div>
+
+        <div class="invoice-contact">
+          <h3 data-i18n="home.contactTitle">Primary Contact</h3>
+          <p>453391534@qq.com</p>
+          <button type="button" class="button button-secondary invoice-button" data-open-contact data-i18n="home.contactButton">
+            View Contact
+          </button>
+        </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <p>© 2026 Odds Simulator. All rights reserved.</p>
+    <footer class="site-footer invoice-footer">
+      <span data-i18n="brand.name">SOCIAL-LAB</span>
+      <div class="footer-center">
+        <div class="footer-links">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="odds-simulator.html" data-i18n="nav.odds">Odds Simulator</a>
+          <a href="privacy.html" data-i18n="nav.privacy">Privacy Policy</a>
+        </div>
+        <div class="language-switcher" role="group" aria-label="Language switcher" data-i18n-attr="aria-label:footer.languageAria">
+          <span class="language-label" data-i18n="footer.language">Language</span>
+          <button type="button" class="language-option" data-lang-option="en">English</button>
+          <button type="button" class="language-option" data-lang-option="zh">中文</button>
+        </div>
+      </div>
+      <span data-i18n="footer.copyright">&copy; 2026 SOCIAL-LAB. All rights reserved.</span>
     </footer>
+  </div>
+
+  <div class="contact-modal" data-contact-modal hidden>
+    <div class="contact-backdrop" data-close-contact></div>
+    <div class="contact-dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+      <button type="button" class="contact-close" data-close-contact aria-label="Close">×</button>
+      <p class="contact-kicker" data-i18n="modal.kicker">Contact</p>
+      <h2 id="contact-modal-title" data-i18n="modal.title">Get in touch</h2>
+      <p class="contact-value">453391534@qq.com</p>
+      <p class="contact-copy" data-i18n="modal.body">Use this email for project questions, support requests, and privacy-related communication.</p>
+      <a class="button button-primary" href="mailto:453391534@qq.com" data-i18n="modal.button">Send Email</a>
+    </div>
   </div>
 </body>
 </html>

@@ -4,136 +4,175 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Odds Simulator Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for Odds Simulator." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta
+    name="description"
+    content="Privacy Policy for Odds Simulator."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="site.css" />
+  <script defer src="app.js"></script>
 </head>
-<body>
-  <div class="page">
-    <header class="topbar">
-      <div class="brand">Odds Simulator</div>
-      <nav class="nav">
-        <a href="index.html">Support</a>
-        <a href="privacy.html" aria-current="page">Privacy Policy</a>
+<body class="theme-ledger" data-page="privacy">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" data-i18n-attr="aria-label:brand.aria">
+        <span class="brand-mark">OS</span>
+        <span class="brand-copy">
+          <strong>Odds Simulator</strong>
+          <span data-i18n="brand.subhead">Privacy Policy</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation" data-i18n-attr="aria-label:nav.aria">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="odds-simulator.html" data-i18n="nav.odds">Odds Simulator</a>
+        <a href="privacy.html" aria-current="page" data-i18n="nav.privacy">Privacy Policy</a>
       </nav>
+
+      <button type="button" class="header-cta" data-open-contact data-i18n="header.contact">Contact</button>
     </header>
 
-    <main class="card">
-      <p class="eyebrow">Legal</p>
-      <h1>Privacy Policy</h1>
-      <p class="muted">Effective date: March 2026</p>
+    <main class="policy-shell">
+      <aside class="policy-overview">
+        <div class="policy-hero">
+          <span class="policy-code" data-i18n="policy.code">Legal / Data Handling</span>
+          <h1 data-i18n-html="policy.heroTitle">PRIVACY<br />POLICY</h1>
+          <p class="muted" data-i18n="policy.effective">Effective date: March 2026</p>
+        </div>
 
-      <section class="section">
-        <h2>1. Introduction</h2>
-        <p>
-          Odds Simulator (“we”, “our”, or “the app”) respects your privacy.
-          This Privacy Policy explains how information may be handled when you use the app.
+        <p data-i18n="policy.overview">
+          This page explains how Odds Simulator may handle support emails, diagnostics, and limited technical information needed to keep the app reliable.
         </p>
-      </section>
 
-      <section class="section">
-        <h2>2. Information We Collect</h2>
-        <p>We may collect limited information in the following situations:</p>
-        <ul>
-          <li>
-            <strong>Information you provide directly:</strong>
-            If you contact us by email for support, feedback, or bug reports,
-            we may receive your email address and any information you include in your message.
-          </li>
-          <li>
-            <strong>Technical or usage-related information:</strong>
-            Depending on platform requirements and service providers, limited technical information
-            may be collected automatically, such as device type, operating system version, app version,
-            crash logs, and diagnostic information.
-          </li>
-          <li>
-            <strong>App usage data:</strong>
-            Basic usage or performance-related information may be processed by platform or infrastructure
-            providers to help maintain app stability and improve user experience.
-          </li>
-        </ul>
-        <p>We do not require account registration to use the app.</p>
-      </section>
+        <div class="meta-block">
+          <span class="meta-label" data-i18n="meta.contactLabel">Contact</span>
+          <strong>453391534@qq.com</strong>
+          <p data-i18n="meta.contactBody">Use this address for support and privacy-related requests.</p>
+        </div>
 
-      <section class="section">
-        <h2>3. How We Use Information</h2>
-        <ul>
-          <li>To provide user support</li>
-          <li>To respond to feedback or inquiries</li>
-          <li>To diagnose technical issues and improve app performance</li>
-          <li>To maintain app security, reliability, and functionality</li>
-          <li>To comply with legal obligations where required</li>
-        </ul>
-      </section>
+        <div class="meta-block">
+          <span class="meta-label" data-i18n="meta.scopeLabel">Scope</span>
+          <strong data-i18n="meta.scopeValue">SECTIONS_09</strong>
+          <p data-i18n="meta.scopeBody">Summary of collection, usage, retention, and contact terms.</p>
+        </div>
+      </aside>
 
-      <section class="section">
-        <h2>4. Third-Party Services</h2>
-        <p>
-          The app may rely on third-party platforms or infrastructure providers, such as Apple,
-          Expo, or other service providers involved in app distribution, diagnostics, hosting,
-          or analytics. These services may process limited technical data according to their own
-          privacy policies.
-        </p>
-        <p>We do not sell personal information to third parties.</p>
-      </section>
+      <article class="policy-content">
+        <section class="policy-copy">
+          <h2 data-i18n="sec1.title">1. Introduction</h2>
+          <p data-i18n="sec1.body">
+            Odds Simulator respects your privacy. This Privacy Policy explains how information may be handled when you use the app or contact us for support.
+          </p>
+        </section>
 
-      <section class="section">
-        <h2>5. Data Retention</h2>
-        <p>
-          We retain information only for as long as reasonably necessary to provide support,
-          resolve issues, comply with legal obligations, or maintain app operations.
-        </p>
-        <p>
-          If you contact us by email, we may keep related communications for customer support
-          and record-keeping purposes.
-        </p>
-      </section>
+        <section class="policy-copy">
+          <h2 data-i18n="sec2.title">2. Information We Collect</h2>
+          <p data-i18n="sec2.intro">We may collect limited information in the following situations:</p>
+          <ul>
+            <li data-i18n="sec2.item1">Information you provide directly, such as your email address and anything included in a support message.</li>
+            <li data-i18n="sec2.item2">Technical or usage-related information, such as device type, operating system version, app version, crash logs, or diagnostics.</li>
+            <li data-i18n="sec2.item3">Basic usage or performance information processed by platform or infrastructure providers to help maintain app stability.</li>
+          </ul>
+          <p data-i18n="sec2.outro">We do not require account registration to use the app.</p>
+        </section>
 
-      <section class="section">
-        <h2>6. Children’s Privacy</h2>
-        <p>
-          Odds Simulator is not directed to children under the age of 13. We do not knowingly
-          collect personal information from children. If you believe a child has provided personal
-          information, please contact us so we can take appropriate action.
-        </p>
-      </section>
+        <section class="policy-copy">
+          <h2 data-i18n="sec3.title">3. How We Use Information</h2>
+          <ul>
+            <li data-i18n="sec3.item1">To provide user support</li>
+            <li data-i18n="sec3.item2">To respond to feedback or inquiries</li>
+            <li data-i18n="sec3.item3">To diagnose technical issues and improve app performance</li>
+            <li data-i18n="sec3.item4">To maintain app security, reliability, and functionality</li>
+            <li data-i18n="sec3.item5">To comply with legal obligations where required</li>
+          </ul>
+        </section>
 
-      <section class="section">
-        <h2>7. Your Rights</h2>
-        <p>
-          Depending on your location, you may have rights regarding your personal information,
-          including the right to request access, correction, or deletion of information you have
-          provided to us.
-        </p>
-        <p>
-          To make such a request, please contact us at:
-          <a href="mailto:453391534@qq.com">453391534@qq.com</a>
-        </p>
-      </section>
+        <section class="policy-copy">
+          <h2 data-i18n="sec4.title">4. Third-Party Services</h2>
+          <p data-i18n="sec4.body1">
+            The app may rely on third-party platforms or infrastructure providers, such as Apple, Expo, analytics, hosting, or diagnostic services. These providers may process limited technical data according to their own privacy policies.
+          </p>
+          <p data-i18n="sec4.body2">We do not sell personal information to third parties.</p>
+        </section>
 
-      <section class="section">
-        <h2>8. Changes to This Policy</h2>
-        <p>
-          We may update this Privacy Policy from time to time. If changes are made,
-          the updated version will be posted on this page with a revised effective date.
-        </p>
-      </section>
+        <section class="policy-copy">
+          <h2 data-i18n="sec5.title">5. Data Retention</h2>
+          <p data-i18n="sec5.body1">
+            We retain information only for as long as reasonably necessary to provide support, resolve issues, comply with legal obligations, or maintain app operations.
+          </p>
+          <p data-i18n="sec5.body2">
+            If you contact us by email, we may keep related communications for customer support and record-keeping purposes.
+          </p>
+        </section>
 
-      <section class="section">
-        <h2>9. Contact Us</h2>
-        <p>
-          If you have any questions about this Privacy Policy or the app, please contact us at:
-          <a href="mailto:453391534@qq.com">453391534@qq.com</a>
-        </p>
-      </section>
+        <section class="policy-copy">
+          <h2 data-i18n="sec6.title">6. Children's Privacy</h2>
+          <p data-i18n="sec6.body">
+            Odds Simulator is not directed to children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information, contact us so we can take appropriate action.
+          </p>
+        </section>
 
-      <div class="backlink">
-        <a href="index.html">← Back to Support</a>
-      </div>
+        <section class="policy-copy">
+          <h2 data-i18n="sec7.title">7. Your Rights</h2>
+          <p data-i18n="sec7.body1">
+            Depending on your location, you may have rights regarding your personal information, including the right to request access, correction, or deletion of information you have provided to us.
+          </p>
+          <p>
+            <span data-i18n="sec7.body2a">To make such a request, contact us at</span>
+            <a href="mailto:453391534@qq.com">453391534@qq.com</a>.
+          </p>
+        </section>
+
+        <section class="policy-copy">
+          <h2 data-i18n="sec8.title">8. Changes to This Policy</h2>
+          <p data-i18n="sec8.body">
+            We may update this Privacy Policy from time to time. If changes are made, the updated version will be posted on this page with a revised effective date.
+          </p>
+        </section>
+
+        <section class="policy-copy">
+          <h2 data-i18n="sec9.title">9. Contact Us</h2>
+          <p>
+            <span data-i18n="sec9.body">If you have any questions about this Privacy Policy or the app, please contact us at</span>
+            <a href="mailto:453391534@qq.com">453391534@qq.com</a>.
+          </p>
+        </section>
+      </article>
     </main>
 
-    <footer class="footer">
-      <p>© 2026 Odds Simulator. All rights reserved.</p>
+    <footer class="site-footer">
+      <span>Odds Simulator</span>
+      <div class="footer-center">
+        <div class="footer-links">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="odds-simulator.html" data-i18n="nav.odds">Odds Simulator</a>
+          <a href="privacy.html" data-i18n="nav.privacy">Privacy Policy</a>
+        </div>
+        <div class="language-switcher" role="group" aria-label="Language switcher" data-i18n-attr="aria-label:footer.languageAria">
+          <span class="language-label" data-i18n="footer.language">Language</span>
+          <button type="button" class="language-option" data-lang-option="en">English</button>
+          <button type="button" class="language-option" data-lang-option="zh">中文</button>
+        </div>
+      </div>
+      <span data-i18n="footer.copyright">&copy; 2026 Odds Simulator. All rights reserved.</span>
     </footer>
+  </div>
+
+  <div class="contact-modal" data-contact-modal hidden>
+    <div class="contact-backdrop" data-close-contact></div>
+    <div class="contact-dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+      <button type="button" class="contact-close" data-close-contact aria-label="Close">×</button>
+      <p class="contact-kicker" data-i18n="modal.kicker">Contact</p>
+      <h2 id="contact-modal-title" data-i18n="modal.title">Get in touch</h2>
+      <p class="contact-value">453391534@qq.com</p>
+      <p class="contact-copy" data-i18n="modal.body">Use this email for project questions, support requests, and privacy-related communication.</p>
+      <a class="button button-primary" href="mailto:453391534@qq.com" data-i18n="modal.button">Send Email</a>
+    </div>
   </div>
 </body>
 </html>
